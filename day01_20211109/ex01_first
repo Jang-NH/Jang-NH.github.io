@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>안녕하세요</h1>
+    <!-- 문서 편집에 사용되는 태그들 -->
+    <b>글자가</b>
+    <strong>어떻게 나오는지</strong>
+    <i>한번 보시면</i>
+    <small>바로</small>
+    <del>알 수가</del>
+    <sub>있지요</sub>
+    <sup>ㅎㅎㅎ</sup>
+
+    <!-- 링크태그
+    href 속성 : 목적지 주소값 -->
+    <a herf="http://www.naver.com">네이버로 이동</a>
+     <!-- target 속성값 _blank : 새창에 해당 링크를 띄움 -->
+    <a herf="http://www.daum.net" target="_blank">다음으로 이동</a>
+</body>
+</html>
