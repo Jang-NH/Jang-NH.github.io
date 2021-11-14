@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form 태그</title>
+</head>
+<body>
+    <form action="temp" method="get">
+        입력1 : <input type="text" name="aa" placeholder="검색어 입력">
+
+
+        <!-- select -->
+        <!-- select를 활용해 이메일 입력 폼을 만들어보자 -->
+        이메일 : <input type="text" name ="email">@ <input type="text">
+        <select name="domain">
+            <option value="">직접입력</option>
+            <option value="naver.com">naver.com</option>
+            <option value="hanmail.com">hanmail.com</option>
+            <option value="gmail.com">gmail.com</option>
+        </select> <br>
+
+        <!-- 장문의 글을 쓸 필요가 있을 때 -->
+        <textarea name="contents" cols="10" rows="5"></textarea>
+
+        <!-- 비밀번호 -->
+        비밀번호 : <input type="passsword" name="pw"> <br>
+
+        <!-- radio 버튼
+        선택항목의 name 값 을 일치시켜줘야함 -->
+        가입유형 : 
+        <input type="radio" id="p" name="jointype" value="personal">
+            <label for="p">개인</label>
+        <input type="radio" id="c" name="jointype" value="commercial">
+            <label for="c">사업자</label>
+        <input type="radio" name="jointype" value="no">해당없음
+        <br>
+
+        <!-- checkbox -->
+        활용가능언어 : 
+        <input type="checkbox" name="lang" value="java">자바
+        <input type="checkbox" name="lang" value="mysql">mysql
+        <input type="checkbox" name="lang" value="html">html
+        <input type="checkbox" name="lang" value="python">python
+
+        <input type="submit" value="전송">
+    </form>
+</body>
+
+</html>
