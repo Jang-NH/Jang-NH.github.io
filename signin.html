@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <style>
+        header {
+            background-color: rgb(39, 39, 39);
+        }
+
+        section {
+            width: 580px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="pt-2 pb-3" style="color: white; font-weight: bold; text-align: center;">Sign in</h1>
+    </header>
+    <section>
+        <h3 class="pt-3" style="text-align: center;">Please sign in</h3>
+        <form class="text-center g-3 py-2 px-5 mx-5" style="width: 500px; height: 40px;">
+            <div class="col-md-12">
+                <!-- <label for="inputId" class="form-label">ID</label> -->
+                <input type="text" class="form-control my-2" id="id" placeholder="ID">
+            </div>
+            <div class="col-md-12">
+                <!-- <label for="inputPw" class="form-label">Password</label> -->
+                <input type="password" class="form-control my-3" id="pw" maxlength="20" placeholder="Password">
+            </div>
+            <div class="col-12">
+                <button type="submit" class="btn btn-dark">Sign in</button>
+            </div>
+        </form>
+    </section>
+</body>
+
+</html>
